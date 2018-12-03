@@ -1,0 +1,10 @@
+<button (click)="addToCompare(product)" (click)="isCompared = !isCompared">
+  <p *ngIf="isCompared; else elseBlock">
+    Remove from comapre
+  </p>
+  <ng-template #elseBlock>
+    <p>
+      Add to compare
+    </p>
+  </ng-template>
+</button>

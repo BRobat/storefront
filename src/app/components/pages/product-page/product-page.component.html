@@ -1,0 +1,49 @@
+<div>
+  <photo-gallery></photo-gallery>
+  <div>
+    <div>
+      {{product.name}}
+    </div>
+    <div>
+      {{product.tag}}
+    </div>
+    <div>
+      {{price}}
+    </div>
+    <color-picker></color-picker>
+    <div>
+      <size-picker></size-picker>
+    </div>
+
+    <quantity-picker></quantity-picker>
+    <add-to-cart [product]="product"></add-to-cart>
+    <div>
+      <add-to-favorite></add-to-favorite>
+      <add-to-compare></add-to-compare>
+    </div>
+  </div>
+</div>
+<div>
+  {{product.details}}
+</div>
+<div>
+  <div>
+    <review-collection></review-collection>
+  </div>
+  <div>
+    <add-review></add-review>
+  </div>
+</div>
+<div>
+  We found products you might like
+  <div>
+    <collection-view></collection-view>
+  </div>
+</div>
+<div>
+  <banner></banner>
+</div>
+<div>
+  Simillar Products
+  <collection-view></collection-view>
+</div>
