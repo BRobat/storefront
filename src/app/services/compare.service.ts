@@ -7,12 +7,12 @@ export class CompareService {
 
   constructor() { }
 
-  addToCompares(product){
+  addToCompare(product){
     console.log("added");
     //adds stuff to server or local storage
   }
 
-  removeFromCompares(product) {
+  removeFromCompare(product) {
     console.log("removed");
     //removes stuff from compare
   }

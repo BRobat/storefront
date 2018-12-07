@@ -1,3 +1,10 @@
-<p>
-  add-to-favorite works!
-</p>
+<button (click)="addToFavorites(product)" (click)="isFavorite = !isFavorite">
+  <p *ngIf="isFavorite; else elseBlock">
+    Remove from favorites
+  </p>
+  <ng-template #elseBlock>
+    <p>
+      Add to favorites
+    </p>
+  </ng-template>
+</button>

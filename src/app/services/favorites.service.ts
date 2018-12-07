@@ -10,4 +10,8 @@ export class FavoritesService {
   addToFavorites(product) {
     //adds stuff to server
   }
+
+  removeFromFavorites(product) {
+    //removes stuff from favorites
+  }
 }

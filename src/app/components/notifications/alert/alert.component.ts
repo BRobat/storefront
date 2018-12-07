@@ -23,8 +23,8 @@ export class AlertComponent {
     });
   }
 
-  clearAlerts() {
-    this.alertService.clear();
+  clear() {
+    this.alertService.clearAlerts();
   }
   
 }

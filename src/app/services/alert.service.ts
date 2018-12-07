@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable, Subject } from 'rxjs';
 
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -19,11 +20,13 @@ export class AlertService {
   success(message) {
     this.alerts.next(<Alert>{message: message});
     console.log(this.alerts);
-   
+    //this.clearAlerts();
   }
 
 
-  clear() {
+  clearAlerts() {
+    
+
     this.alerts.next();
   }
 }
