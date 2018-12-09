@@ -1,0 +1,18 @@
+button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.black {
+    background-color: black;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+

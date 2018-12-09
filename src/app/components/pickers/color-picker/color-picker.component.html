@@ -1,3 +1,5 @@
-<p>
-  color-picker works!
-</p>
+<div *ngFor="let c of product.colors">
+  <div class="circle">
+    <button class="{{c}}" (click)="chooseColor(c)"></button>
+  </div>
+</div>

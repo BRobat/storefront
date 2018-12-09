@@ -4,8 +4,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router'
 
 import { AppComponent } from './app.component';
-import { ProductPageComponent } from './components/pages/product-page/product-page.component';
-import { SizeGuidePageComponent } from './components/pages/size-guide-page/size-guide-page.component';
+import { ProductPageComponent } from './pages/product-page/product-page.component';
+import { SizeGuidePageComponent } from './pages/size-guide-page/size-guide-page.component';
 import { ColorPickerComponent } from './components/pickers/color-picker/color-picker.component';
 import { SizePickerComponent } from './components/pickers/size-picker/size-picker.component';
 import { QuantityPickerComponent } from './components/pickers/quantity-picker/quantity-picker.component';

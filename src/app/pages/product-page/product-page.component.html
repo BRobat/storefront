@@ -10,12 +10,15 @@
     <div>
       {{price}}
     </div>
-    <color-picker></color-picker>
     <div>
-      <size-picker></size-picker>
+      <color-picker [product]="product" (color)="chooseColor($event)"></color-picker>
     </div>
 
-    <quantity-picker></quantity-picker>
+    <div>
+      <size-picker [product]="product" (size)="chooseSize($event)"></size-picker>
+    </div>
+
+    <quantity-picker (quantity)="setQuantity($event)"></quantity-picker>
     <add-to-cart [product]="product"></add-to-cart>
     <div>
       <add-to-favorite [product]="product"></add-to-favorite>

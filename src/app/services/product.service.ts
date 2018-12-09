@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Product } from './../models/Product';
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -10,6 +11,7 @@ export class ProductService {
 
   //this is only for mockup purposes
   getProductData(){
+    //mockup
     let product = new Product();
     product.name = "super tshirt";
     product.price = 23.1;
